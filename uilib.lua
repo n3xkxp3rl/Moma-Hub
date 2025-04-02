@@ -556,57 +556,6 @@ local RayfieldLibrary = {
 			InputStroke = Color3.fromRGB(180, 190, 200),
 			PlaceholderColor = Color3.fromRGB(150, 150, 150)
 		},
-
-		ModernMinimalist = {
-			-- General text color
-			TextColor = Color3.fromRGB(255, 255, 255),          -- Crisp white for clarity on dark background
-		
-			-- Background and structural elements
-			Background = Color3.fromRGB(15, 15, 15),            -- Very dark grey background to add depth
-			Topbar = Color3.fromRGB(25, 25, 25),                -- Slightly lighter dark grey for the topbar
-			Shadow = Color3.fromRGB(10, 10, 10),                -- Subtle, soft shadow for depth (just a hint)
-		
-			-- Notifications
-			NotificationBackground = Color3.fromRGB(40, 40, 40), -- Dark grey with slightly less opacity for notifications
-			NotificationActionsBackground = Color3.fromRGB(55, 55, 55), -- Slightly lighter for action buttons
-		
-			-- Tabs
-			TabBackground = Color3.fromRGB(20, 20, 20),         -- Darker grey for inactive tabs, makes active ones pop
-			TabStroke = Color3.fromRGB(50, 50, 50),             -- Medium grey stroke to define tab boundaries
-			TabBackgroundSelected = Color3.fromRGB(60, 60, 60), -- Lighter grey for selected tab to stand out
-			TabTextColor = Color3.fromRGB(255, 255, 255),       -- White text for tab labels
-			SelectedTabTextColor = Color3.fromRGB(255, 255, 255), -- White to keep things consistent
-		
-			-- Elements (buttons, cards, panels)
-			ElementBackground = Color3.fromRGB(25, 25, 25),     -- Dark grey to keep elements grounded in the theme
-			ElementBackgroundHover = Color3.fromRGB(35, 35, 35), -- Subtle lighter grey when hovering over elements
-			SecondaryElementBackground = Color3.fromRGB(30, 30, 30), -- Lighter secondary background
-			ElementStroke = Color3.fromRGB(60, 60, 60),         -- Slightly brighter grey to outline elements
-			SecondaryElementStroke = Color3.fromRGB(75, 75, 75), -- For secondary elements, even lighter outline
-		
-			-- Sliders and progress bars
-			SliderBackground = Color3.fromRGB(35, 35, 35),      -- Darker background for sliders
-			SliderProgress = Color3.fromRGB(255, 165, 0),       -- Bright orange for a clear, modern progress indicator
-			SliderStroke = Color3.fromRGB(50, 50, 50),          -- Medium grey for slider borders
-		
-			-- Toggles (on/off)
-			ToggleBackground = Color3.fromRGB(30, 30, 30),      -- Dark background for toggles
-			ToggleEnabled = Color3.fromRGB(0, 220, 255),        -- Vibrant cyan for enabled state
-			ToggleDisabled = Color3.fromRGB(80, 80, 80),        -- Dark grey for disabled toggle
-			ToggleEnabledStroke = Color3.fromRGB(0, 190, 255),  -- Cyan stroke for enabled state
-			ToggleDisabledStroke = Color3.fromRGB(70, 70, 70),  -- Darker stroke for disabled state
-			ToggleEnabledOuterStroke = Color3.fromRGB(0, 150, 255), -- Slightly lighter outer stroke for active toggle
-			ToggleDisabledOuterStroke = Color3.fromRGB(60, 60, 60), -- Darker outer stroke for disabled toggle
-		
-			-- Dropdowns (selected/unselected items)
-			DropdownSelected = Color3.fromRGB(45, 45, 45),      -- Slightly darker grey for selected dropdown items
-			DropdownUnselected = Color3.fromRGB(35, 35, 35),    -- Darker grey for unselected dropdown items
-		
-			-- Input fields
-			InputBackground = Color3.fromRGB(40, 40, 40),       -- Dark grey background for input fields
-			InputStroke = Color3.fromRGB(60, 60, 60),           -- Medium grey border for input fields
-			PlaceholderColor = Color3.fromRGB(120, 120, 120),    -- Subtle grey for placeholder text for clarity
-		},			
 	}
 }
 
